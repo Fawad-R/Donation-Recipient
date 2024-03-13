@@ -1,0 +1,142 @@
+/* AdminPage.css */
+
+/* Admin Panel Container */
+.admin-panel {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar */
+  .admin-panel  .sidebar {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+  
+  .admin-panel .sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-panel .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-panel .sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+  }
+  
+  .admin-panel .sidebar li:hover {
+    background-color: #555;
+  }
+  .admin-panel .sidebar ul li.active {
+    background-color: #007bff; /* Highlight color for the active item */
+    color: white; /* Text color for the active item */
+  }
+  /* Main Content */
+  .admin-panel .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    width:100%;
+  }
+  
+  .admin-panel header {
+    margin-bottom: 20px;
+  }
+  
+  .admin-panel header h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  /* Table */
+  .admin-panel .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-panel th,.admin-panel td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .admin-panel th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .admin-panel tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Buttons */
+  .admin-panel .btn-primary,
+  .admin-panel .btn-danger {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .admin-panel .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .admin-panel .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .admin-panel .btn-primary:hover,
+  .admin-panel .btn-danger:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+  }
+  
+  .AdminTopbarNew2{
+    display: none;
+  }
+
+  .AdminTopbarNew2 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .AdminTopbarNew2 li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+  }
+  
+  .AdminTopbarNew2 li:hover {
+    background-color: #555;
+  }
+  .AdminTopbarNew2 ul li.active {
+    /* background-color: #007bff; */
+    color: #007bff; 
+  }
+  
+  @media (max-width:760px) {
+    .AdminTopbarNew2{
+      display: block;
+    }
+    .AdminTopbarNew2 li{
+      list-style-type: none;
+    }
+    .hideElements{
+      display: none;
+    }
+    .admin-panel  .sidebar {
+display: none;
+    }
+  }

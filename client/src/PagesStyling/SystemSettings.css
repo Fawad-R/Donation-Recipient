@@ -1,0 +1,50 @@
+/* src/components/SystemSettings.css */
+
+.system-settings {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Display in two columns */
+  gap: 16px; /* Add gap between settings */
+  max-width: 800px; /* Adjust the max-width */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.system-settings .setting {
+  margin: 0;
+}
+
+.system-settings label {
+  display: block;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.system-settings input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.system-settings button {
+  grid-column: span 2; /* Make the button span both columns */
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.system-settings button:hover {
+  background-color: #0056b3;
+}

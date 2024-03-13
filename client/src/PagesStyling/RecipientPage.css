@@ -1,0 +1,49 @@
+  .recipient-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .recipient-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .recipient-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .recipient-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .recipient-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .recipient-image {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+  }
+  
+  .recipient-info {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .recipient-label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  

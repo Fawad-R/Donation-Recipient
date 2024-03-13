@@ -1,0 +1,71 @@
+/* MembershipPlanCard.css */
+/* .MembershipPlanCard0{
+  display: flex;
+  border: 10px solid peru;
+} */
+.MembershipPlanCard .membership-plan-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    /* border: 10px solid purple; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    margin: 20px;
+    transition: transform 0.2s;
+    width:70%;
+    /* width:100%; */
+    /* margin: 2% auto; */
+    
+    
+  }
+  
+  .MembershipPlanCard .membership-plan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .MembershipPlanCard h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .MembershipPlanCard .price {
+    font-size: 20px;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  .MembershipPlanCard .features-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .MembershipPlanCard .features-list li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .MembershipPlanCard .savings {
+    font-size: 18px;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  .MembershipPlanCard button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .MembershipPlanCard   button:hover {
+    background-color: #0056b3;
+  }
+  

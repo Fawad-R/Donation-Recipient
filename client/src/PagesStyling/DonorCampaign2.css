@@ -1,0 +1,80 @@
+/* Style for the container holding the cards */
+.card-container__new {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+  
+  /* Style for each card */
+  .card__new2 {
+    /* width: 30%; */
+    width: 100%;
+     /* Adjust the width as needed */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for card images */
+  .card__new2 img {
+    /* width: 100%; 
+    max-height: 150px; */
+    width:100px;
+    height:70px;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border: 2px solid #ddd; /* Border style */
+    border-radius: 10px; /* Border radius */
+    padding: 5px; /* Padding */
+    margin: 10px 0; /* Margin */
+  }
+  
+  /* Style for card titles */
+  .card__new2 h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  /* Style for card dates */
+  .card__new2 p.date {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* Style for card prices */
+  .card__new2 p.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  /* Style for card descriptions */
+  .card__new2 p.description {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Style for bold text within cards */
+  .bold-text {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  .card__new2 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card__new2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }

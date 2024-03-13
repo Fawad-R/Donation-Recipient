@@ -1,0 +1,46 @@
+/* LanguageSwitch.css */
+
+/* The switch container */
+.language-switch {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 25px;
+  }
+  
+  /* The switch slider */
+  .language-switch-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: 0.4s;
+  }
+  
+  /* Styling for the slider when switched on */
+  .language-switch-slider:before {
+    position: absolute;
+    content: '';
+    height: 19px;
+    width: 19px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+  }
+  
+  /* The switch container when the switch is checked (on) */
+  .language-switch input:checked + .language-switch-slider {
+    background-color: #2196F3;
+  }
+  
+  /* The slider when the switch is checked (on) */
+  .language-switch input:checked + .language-switch-slider:before {
+    transform: translateX(25px);
+  }
+  

@@ -1,0 +1,71 @@
+/* SignupPage.css */
+ .signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+ .signup-page0 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.signup-page h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.signup-page label {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.signup-page input[type="text"],
+.signup-page input[type="email"],
+.signup-page input[type="tel"],
+.signup-page input[type="password"],
+.signup-page select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-page input[type="file"] {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.signup-page .error {
+  color: red;
+  font-size: 12px;
+}
+
+.signup-page button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.signup-page a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+}

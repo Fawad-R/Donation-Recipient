@@ -1,0 +1,187 @@
+/* CampaignForm.css */
+
+/* Style the container for the form */
+.CampaignForm3 .campaign-data-read-only,
+.CampaignForm3 .campaign-form {
+  display: table;
+  width: 100%;
+  border-spacing: 20px; /* Add spacing between table cells */
+  /* border */
+}
+
+/* Style each form field container (table row) */
+.CampaignForm3 .form-field {
+  display: table-row;
+  padding: 10px;
+}
+
+/* Style labels */
+.CampaignForm3 .form-field label {
+  display: table-cell;
+  width: 30%;
+  padding-right: 10px;
+  text-align: right;
+  vertical-align: middle;
+}
+
+/* Style input fields, textareas, and select boxes */
+.CampaignForm3 .form-field input[type="text"],
+.CampaignForm3 .form-field input[type="number"],
+.CampaignForm3 .form-field textarea,
+.CampaignForm3 .form-field select {
+  display: table-cell;
+  width: 70%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style date picker (if needed) */
+/* Assuming you're using a date picker library like react-datepicker */
+.CampaignForm3 .form-field .date-field {
+  display: table-cell;
+  width: 70%;
+  padding: 5px;
+}
+
+/* Style the progress bar */
+.CampaignForm3 .form-field .progress-bar {
+  display: table-cell;
+  width: 70%;
+  padding: 5px;
+}
+
+/* Style the progress bar and progress text */
+.CampaignForm3 .form-field .progress-bar .progress {
+  width: 100%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style the dropzone area */
+.CampaignForm3 .form-field .dropzone {
+  display: table-cell;
+  width: 70%;
+  padding: 10px;
+  border: 2px dashed #ccc;
+  background-color: #f9f9f9;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Style the uploaded images container */
+.CampaignForm3 .uploaded-images {
+  display: table-cell;
+  width: 70%;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style each uploaded image */
+.CampaignForm3 .uploaded-images img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Style buttons */
+.CampaignForm3 .form-field button {
+  display: table-cell;
+  width: 70%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add margin and center the form */
+.CampaignForm3 .campaign-form {
+  margin: 0 auto;
+  max-width: 600px; /* Adjust as needed */
+}
+
+/* Add margin and center the read-only data */
+.CampaignForm3 .campaign-data-read-only {
+  margin: 0 auto;
+  max-width: 600px; /* Adjust as needed */
+}
+
+/* Responsive styling (adjust breakpoints as needed) */
+@media (max-width: 768px) {
+    .CampaignForm3   .form-field {
+    display: block;
+    width: 100%;
+  }
+
+  .CampaignForm3   .form-field label,
+  .CampaignForm3 .form-field input,
+  .CampaignForm3 .form-field textarea,
+  .CampaignForm3 .form-field select,
+  .CampaignForm3 .form-field .date-field,
+  .CampaignForm3 .form-field .progress-bar,
+  .CampaignForm3 .form-field .dropzone,
+  .CampaignForm3 .form-field .progress-bar .progress,
+  .CampaignForm3 .uploaded-images {
+    width: 100%;
+  }
+}
+
+
+/* Campaign Item Form Styles */
+/* Style for the container div */
+.CampaignForm3 .campaign-item-form .table-container {
+  margin-bottom: 100px;
+}
+
+/* Style for the table */
+.CampaignForm3 .campaign-item-form .table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style for table headings */
+.CampaignForm3 .campaign-item-form .table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Style for table rows */
+.CampaignForm3 .campaign-item-form .table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Style for table rows alternating colors */
+.CampaignForm3 .campaign-item-form .table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style for form inputs in table cells */
+.CampaignForm3 .campaign-item-form .table input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for save buttons */
+.CampaignForm3 .campaign-item-form .table .save-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect for save buttons */
+.CampaignForm3 .campaign-item-form .table .save-button:hover {
+  background-color: #45a049;
+}

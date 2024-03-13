@@ -1,0 +1,132 @@
+/* styles.css or your preferred CSS file */
+
+.recipient-research-page {
+    padding: 20px;
+    margin-bottom: 2%;
+      
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter-group input[type="text"],
+  .filter-group select {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .recipient-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .recipient-card {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .recipient-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .recipient-details {
+    padding: 10px;
+  }
+  
+  .recipient-details h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .recipient-details p {
+    margin: 8px 0;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .carousel-container{
+    margin-bottom: 2%;
+  }
+  recipient-research-page {
+    display: flex;
+    flex-wrap: wrap; /* Allow recipient cards to wrap to the next line */
+    justify-content: space-between; /* Distribute space between cards */
+    margin: 2%;
+  }
+  
+  .recipient-card {
+    width: calc(33.33% - 20px); /* Adjust card width based on your layout */
+    margin-bottom: 20%; /* Add margin to separate cards */
+    /* Your existing card styles */
+  }
+
+  /* RecipientResearchPage.css */
+
+.recipient-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.recipient-table th,
+.recipient-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.recipient-table th {
+  background-color: #f2f2f2;
+}
+
+.table-row:hover {
+  background-color: #f5f5f5;
+}
+
+.table-image {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.table-input {
+  width: 80px;
+}
+
+.table-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.table-button:hover {
+  background-color: #0056b3;
+}
