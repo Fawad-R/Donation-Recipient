@@ -40,7 +40,9 @@ app.use('/', verifyEmailRoutes)
 app.use('/', systemSettingsRoutes)
 app.use('/', paymentRoutes)
 app.use('/', paymentRoutes2)
-
+app.get('/',(req,res)=>{
+  res.send('Home')
+})
 app.get("*", function (_, res) {
     res.sendFile(
       path.join(__dirname, "./client/build/index.html"),
