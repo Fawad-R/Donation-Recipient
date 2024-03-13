@@ -23,7 +23,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({ origin: "http://localhost:3000" }));
-app.use(express.static(path.join(__dirname, "./client/build")));
+// app.use(express.static(path.join(__dirname, "./client/build")));
 
 global.config = {
     loginApi: {
@@ -43,14 +43,14 @@ app.use('/', paymentRoutes2)
 app.get('/',(req,res)=>{
   res.send('Home')
 })
-app.get("*", function (_, res) {
-    res.sendFile(
-      path.join(__dirname, "./client/build/index.html"),
-      function (err) {
-        res.status(500).send(err);
-      }
-    );
-  });
+// app.get("*", function (_, res) {
+//     res.sendFile(
+//       path.join(__dirname, "./client/build/index.html"),
+//       function (err) {
+//         res.status(500).send(err);
+//       }
+//     );
+//   });
 app.listen(port, () => {
     console.log(`listening the port: ${port}`);
 });
